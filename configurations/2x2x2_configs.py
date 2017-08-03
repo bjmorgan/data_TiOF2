@@ -22,5 +22,5 @@ print( "Found {} unique structures".format( len( unique_structures ) ) )
 
 for i, s in enumerate( unique_structures ):
     poscar = Poscar( s.get_sorted_structure() )
-    poscar.comment = "TiOF2 2x2x2 config {}".format( i )
+    poscar.comment = "TiOF2 2x2x2 config {:04d}".format( i )
     poscar.write_file( "config_{:04d}.poscar".format(i) )
