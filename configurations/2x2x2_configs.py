@@ -1,11 +1,13 @@
 #! /usr/bin/env python3
 
+import os
 import numpy as np
 from bsym.interface.pymatgen import unique_structure_substitutions
 from pymatgen import Lattice, Structure
 from pymatgen.io.vasp import Poscar
 
 a = 3.798 # TODO: where does this latttice parameter come from?
+poscar_dir = 'poscars'
 
 coords = np.array( [ [ 0.0, 0.0, 0.0 ],
                      [ 0.5, 0.0, 0.0 ],
@@ -20,7 +22,10 @@ unique_structures = unique_structure_substitutions( parent_structure, 'X', { 'F'
 
 print( "Found {} unique structures".format( len( unique_structures ) ) )
 
+if not os.path.exists( poscar_dir ):
+    os.makedirs( poscar_dir )
+
 for i, s in enumerate( unique_structures ):
     poscar = Poscar( s.get_sorted_structure() )
     poscar.comment = "TiOF2 2x2x2 config {:04d}".format( i )
-    poscar.write_file( "config_{:04d}.poscar".format(i) )
+    poscar.write_file( "{}/config_{:04d}.poscar".format( poscar_dir, i ) )
