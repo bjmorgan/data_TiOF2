@@ -3,28 +3,37 @@
 import glob
 import re
 import os
-from vasppy.poscar import Poscar
+from pymatgen.io.vasp import Poscar
 import sys
 import numpy as np
+import argparse
 
-config_dir = '../configurations'
-coordinate_type = 'Direct'
-output_opts = { 'label'    : 4,
-                'numbered' : False,
-                'coordinates_only' : True }
+def np_string( v ):
+    return ' '.join( [ str(f) for f in v ] )
 
-if sys.argv[1]:
-    nid = sys.argv[1]
-else:
-    raise
+def structure_to_str_out( structure, filename, supercell ):
+    with open( filename, 'w' ) as f:
+        for v in structure.lattice.matrix:
+            f.write( "{}\n".format( np_string( v / supercell ) ) )
+        f.write( "{:f} 0.0 0.0\n0.0 {:f} 0.0\n0.0 0.0 {:f}\n".format( *supercell ) )
+        for site in structure:
+            f.write( "{} {}\n".format( np_string( site.frac_coords * supercell ), site.species_string ) )
 
-if not os.path.isdir( nid ):
-    os.mkdir( nid )
-this_poscar = Poscar()
-this_poscar.read_from( "{}/config_{}.poscar".format( config_dir, nid ) )
-this_poscar.coordinates *= np.array( [ 2.0, 2.0, 2.0 ] )
-filename = nid + '/str.out' 
-with open( filename, 'w' ) as f:
-    f.write( "3.798000 0.000000 0.000000\n0.000000 3.798000 0.000000\n0.000000 0.000000 3.798000\n2.000000 0.000000 0.000000\n0.000000 2.000000 0.000000\n0.000000 0.000000 2.000000\n" )
-    sys.stdout = open( filename, 'a')
-    this_poscar.output( coordinate_type = coordinate_type, opts = output_opts )
+def copy_poscar_as_str_out( nid, config_dir, supercell ):
+    if not os.path.isdir( nid ):
+        os.mkdir( nid )
+    poscar = Poscar.from_file( "{}/config_{}.poscar".format( config_dir, nid ) )
+    structure_to_str_out( poscar.structure, '{}/str.out'.format( nid ), supercell )
+
+def parse_arguments():
+    parser = argparse.ArgumentParser( description='TODO' )
+    parser.add_argument( 'n', type=str, help='Configuration number to copy.' )
+    parser.add_argument( '--configdir', help='Location of directory containing configuration POSCAR files.', required=True )
+    parser.add_argument( '--supercell', nargs=3, type=int, help='Supercell expansion.', required=True )
+    return parser.parse_args()
+
+if __name__ == '__main__':
+    args = parse_arguments()
+    copy_poscar_as_str_out( nid=args.n, 
+                            config_dir=args.configdir, 
+                            supercell=np.array( args.supercell ) )
