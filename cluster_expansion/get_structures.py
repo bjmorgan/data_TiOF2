@@ -26,7 +26,7 @@ def copy_poscar_as_str_out( nid, config_dir, supercell ):
     structure_to_str_out( poscar.structure, '{}/str.out'.format( nid ), supercell )
 
 def parse_arguments():
-    parser = argparse.ArgumentParser( description='TODO' )
+    parser = argparse.ArgumentParser( description="Reads a VASP POSCAR file named `config_<n>.poscar` and creates a corresponding numbered directory containing the same structure as a maps `str.out` file" )
     parser.add_argument( 'n', type=str, help='Configuration number to copy.' )
     parser.add_argument( '--configdir', help='Location of directory containing configuration POSCAR files.', required=True )
     parser.add_argument( '--supercell', nargs=3, type=int, help='Supercell expansion.', required=True )
