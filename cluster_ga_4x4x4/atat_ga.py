@@ -70,8 +70,16 @@ def next_generation( population, fitness_function ):
     selected = Population( new_population.boltzmann( fitness_function, temp=750.0, size=40 ) )
     return selected
 
+def structure_to_str_out( structure, filename, supercell ):
+    with open( filename, 'w' ) as f:
+        for v in structure.lattice.matrix:
+            f.write( "{}\n".format( np_string( v / supercell ) ) )
+        f.write( "{:f} 0.0 0.0\n0.0 {:f} 0.0\n0.0 0.0 {:f}\n".format( *supercell ) )
+        for site in structure:
+            f.write( "{} {}\n".format( np_string( site.frac_coords * supercell ), site.species_string ) )
+
 if __name__ == '__main__':
-    niter = 100
+    niter = 1
     expansion = np.array( [ 4, 4, 4 ] )
     ref_eng = ref_energy()
     n_atoms = 3
@@ -90,4 +98,5 @@ if __name__ == '__main__':
         print( "{} {:.4f} {}".format( i+1, np.mean( p1.scores ),  np_string( np.sort( p1.scores ) ) ), flush=True )
     opt_structure = new_structure_from_vector( sorted( p1.individuals, key=lambda i: i.fitness_score( f ) )[0].vector )
     Poscar( opt_structure ).write_file( "opt.poscar" )
-    
+    structure_to_str_out( opt_structure, 'opt_str.out', expansion ) 
+
