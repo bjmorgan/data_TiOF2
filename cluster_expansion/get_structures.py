@@ -11,6 +11,7 @@ import argparse
 def np_string( v ):
     return ' '.join( [ str(f) for f in v ] )
 
+# Note: pymatgen > 2017.10.16 can handle this using pymatgen.io.atat.Mcsqs.to_string()
 def structure_to_str_out( structure, filename, supercell ):
     with open( filename, 'w' ) as f:
         for v in structure.lattice.matrix:
