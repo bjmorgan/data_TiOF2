@@ -7,8 +7,8 @@ This dataset contains a series of calculations performed to study the F/O disord
 
 The top-level directory contains the following sub-directories:
 
-- configurations
-- vasp_calculations
+- 2x2x2_configurations
+- 2x2x2_vasp_calculations
 - cluster_predictions
 - cluster_expansion
 - cluster_predictions

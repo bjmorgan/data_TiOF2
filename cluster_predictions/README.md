@@ -1,4 +1,4 @@
-This directory contains predictive calculation of the energies of all symmetry inequivalent 2x2x2 supercells of TiOF2. The energies are estimated using the cluster expansion fitted in `../cluster_expansion/`, with the files `lat.in`, `clusters.out`, `eci.out`, and `ref_energy.out` symbolically linked from that directory.
+This directory contains predictive calculations of the energies of all symmetry inequivalent 2x2x2 supercells of TiOF2. The energies are estimated using the cluster expansion fitted in `../cluster_expansion/`, with the files `lat.in`, `clusters.out`, `eci.out`, and `ref_energy.out` symbolically linked from that directory.
 
 The script `get_structures.py` is used to read generated POSCAR files from `../configurations/poscars` and create corresponding numbered directories containing `maps` `str.out` files, e.g. 
 
