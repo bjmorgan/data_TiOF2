@@ -6,7 +6,7 @@ from bsym.interface.pymatgen import unique_structure_substitutions
 from pymatgen import Lattice, Structure
 from pymatgen.io.vasp import Poscar
 
-a = 3.798 # TODO: where does this latttice parameter come from?
+a = 3.798 # lattice parameter
 poscar_dir = 'poscars'
 
 coords = np.array( [ [ 0.0, 0.0, 0.0 ],
