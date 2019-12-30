@@ -20,3 +20,6 @@ vasp_summary -r > TiOF2_2x2x2_sample_data.yaml
 ```
 
 The directory also contains a script `get_poscars.py`, which collates the optimised `POSCAR` files from the VASP calculation subdirectories, and collects these in the `dft_poscars` subdirectory.
+```
+get_poscars.py
+```
