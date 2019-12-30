@@ -1,24 +1,23 @@
 # TiOF<sub>2</sub> structure prediction dataset
 
-Author: Benjamin J. Morgan
-ORCID: 0000-0002-3056-8233
+Author: Benjamin J. Morgan  
+ORCID: [0000-0002-3056-8233](https://orcid.org/0000-0002-3056-8233)
  
-This dataset contains a series of calculations performed to study the F/O disorder in TiOF2, and the consequences for local structure.
-
-The top-level directory contains the following sub-directories:
-
-- 2x2x2_configurations
-- 2x2x2_vasp_calculations
-- cluster_predictions
-- cluster_expansion
-- cluster_predictions
-- cluster_ga_4x4x4
+This dataset contains DFT and cluster expansion calculations performed to study O/F disorder in TiOF<sub>2</sub>.
 
 ## Overview
+The dataset contains inputs and outputs for the following calculations:
+1. Generation of all symmetry-inequivalent 2&times;2&times;2 supercells of TiOF<sub>2</sub> (2664 total). ([2x2x2_configurations](2x2x2_configurations))
+2. `VASP` DFT geometry optimisations of a subset of 65 TiOF<sub>2</sub> 2&times;2&times;2 supercells. ([2x2x2_vasp_calculations](2x2x2_vasp_calculations))
+3. Fitting a cluster expansion model to the energies of these 65 configurations. ([cluster_expansion](cluster_expansion))
+4. Predicting the energies of all 2664 2&times;2&times;2 supercell configurations, using the cluster expansion model. ([cluster_predictions](cluster_predictions))
+5. Structure prediction of partially disordered 4&times;4&times;4 TiOF<sub>2</sub> supercells, using the cluster expansion model from 3. and a genetic algorithm. ([cluster_ga_4x4x4](cluster_ga_4x4x4))
+6. DFT Geometry optimisation of 5 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells (generated in step 5). ([4x4x4_vasp_calculations](4x4x4_vasp_calculations))
+7. DFT calculations of Li inserted into interstitial sites of one of the 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells. ([li_insertion](li_insertion))
+Full details for each set of calculations are given in each corresponding subdirectory.
 
-### Symmetry analysis of 2x2x2 disordered supercells
-
-For the initial study of the F/O disorder in TiOF2, we began by generating all symmetry-inequivalent 2x2x2 supercells with TiOF2 stoichiometry. This symmetry analysis and structure generation is performed by the script `2x2x2_configs.py` in the `configurations` directory, and uses the `bsym` Python module. The output is a set of 2664 symmetry-inequivalent structures, outputted as `VASP` `POSCAR` files. These are generated in the `configurations/poscars` directory, and are named `config_<number>.poscar`, where `<number>` is the configuration number for that structure.
+## 1. Generation of all symmetry-inequivalent 2&times;2&times;2 disordered supercells
+We first generated all symmetry-inequivalent 2&times;2&times;2 supercells with TiOF<sub>2</sub> stoichiometry. This symmetry analysis and structure generation is performed by the script `2x2x2_configs.py` in the `configurations` directory, and uses the `bsym` Python module. The output is a set of 2664 symmetry-inequivalent structures, outputted as `VASP` `POSCAR` files. These are generated in the `configurations/poscars` directory, and are named `config_<number>.poscar`, where `<number>` is the configuration number for that structure.
 
 ### Geometry optimisation using `VASP`.
  
