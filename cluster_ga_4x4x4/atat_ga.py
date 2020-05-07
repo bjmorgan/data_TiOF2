@@ -2,21 +2,18 @@
 
 from pymatgen.io.vasp import Poscar 
 from beagle import Population, Individual
-from beagle.individual import crossover, mutate
+from beagle.individual import crossover, mutate, matches
 from beagle.interface.maps import structure_to_str_out, ref_energy, predicted_energy
 import numpy as np
 import random 
 from functools import partial
 
-def matches( vector, a ):
-    return [ i for i, e in enumerate( vector ) if e == a ]
-
-def np_string( v ):
-    return ' '.join( [ str(f) for f in v ] )
+def np_string(v):
+    return ' '.join([str(f) for f in v])
 
 def mutator( x ):
-    for i in range( random.randint( 1, 10 ) ):
-        y = swap( x, a=1, b=0 )
+    for i in range(random.randint( 1, 10 )):
+        y = swap(x, a=1, b=0)
         x = y
     return x
 
@@ -57,8 +54,8 @@ def next_generation( population, fitness_function ):
     new_population = Population( [ best ] )
     while len( new_population ) < n_offspring:
         a, b = population.sample( 2 )
-        c = Individual( crossover( a, b ) )
-        c.constrain( target = { 1:64, 0:128 } )
+        c = crossover(a, b)
+        c.constrain(target = {1:64, 0:128})
         if random.random() < 0.15:
             try:
                 d = mutate( c, mutator )

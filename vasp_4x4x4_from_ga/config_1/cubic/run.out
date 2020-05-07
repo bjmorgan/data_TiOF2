@@ -1,0 +1,37 @@
+ running on  128 total cores
+ distrk:  each k-point on  128 cores,    1 groups
+ distr:  one band on    8 cores,   16 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Apr 30 2017 20:10:35) complex          
+  
+ POSCAR found type information on POSCAR  Ti O  F 
+ POSCAR found :  3 types and     256 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  Ti O  F 
+ POSCAR found :  3 types and     256 ions
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.170932502971E+04   -0.17093E+04   -0.66841E-07 12768   0.549E-03    0.289E-03
+RMM:   2    -0.170932502950E+04    0.20771E-06   -0.10695E-06 12612   0.131E-03
+   1 F= -.17093250E+04 E0= -.17093250E+04  d E =-.170933E+04  mag=     0.0000
+ BRION: g(F)=  0.701E-04 g(S)=  0.000E+00
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions

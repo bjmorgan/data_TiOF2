@@ -1,0 +1,49 @@
+SYSTEM = LTO 
+
+Start parameter for this run:
+ISTART  = 1         ! start job from scratch (see INIWAV)
+
+Electronic relaxation:
+ENCUT   = 700.0     ! Cutoff energy for plane waves basis set in eV  
+IALGO = 38
+EDIFF = 1E-6
+
+Calculation mode:
+PREC    = Accurate  ! Calculation level (Changes FFT-grids) 
+ISPIN   = 2         ! Non-spin-polarized calculations 
+LMAXMIX = 4         ! PAW flag  
+ADDGRID = .TRUE.    ! PAW flag
+LASPH   = .TRUE.    ! non-spherical elements in the PAW method
+LREAL = Auto
+ROPT  = 1E-4 1E-4 1E-4
+GGA = PS
+
+LDA+U calculation:
+LDAU      = .TRUE.
+LDAUTYPE  = 2
+LDAUL     =  2   -1    -1
+LDAUU     =  4.2  0.0  0.0
+LDAUJ     =  0.0  0.0  0.0
+
+Ionic relaxation:
+NSW     = 100          ! Number of ionic steps
+EDIFFG  = -0.01  ! stop if all forces are smaller than |EDIFFG|
+IBRION  = 1          !
+ISIF    = 2          ! Force, stress, relax ions, change cell shape, change cell volume
+
+Integration over the Brillouin zone (BZ):
+ISMEAR  = 0        ! Gaussian smearing
+SIGMA = 0.01
+ISYM = 0
+
+DOS calculation:
+LORBIT  = 11        ! Calculate the DOS without providing the Wigner Seitz radius
+NEDOS   = 3001      ! Number of points to calculate the DOS
+
+OUTCAR size:
+NWRITE  = 2         ! Determines how much information will be written in OUTCAR
+
+Key for parallel mode calculation:
+NCORE = 8 
+EOF
+

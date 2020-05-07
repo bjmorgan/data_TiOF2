@@ -1,0 +1,4 @@
+title: TiOF2 4x4x4 config 2
+description: Full geometry optimisation of a 4x4x4 supercell of TiOF2
+notes: This structure was generated using a genetic algorithm optimisation with the MAPS cluster expansion(2x2x2 configurations only). The CE predicted energy is -1708.21932 eV. The MAPS str.out structure corresponding to the starting POSCAR is `opt_str.out`.
+status: finished
