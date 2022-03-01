@@ -1,0 +1,1 @@
+find . -name "vaspmeta.yaml" | sort | grep "config" | xargs grep -l finished $1 | sed 's/vaspmeta.yaml/OUTCAR/g' | xargs -i sh -c 'grep sigma {}|tail -1' | awk '{print $7","}'

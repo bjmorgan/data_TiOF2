@@ -1,0 +1,22 @@
+# From "Computational Supporting Dataset: Exploiting Cationic Vacancies for Increased Energy Densities in Dual-Ion Batteries" doi: 10.15125/BATH-00689
+
+title: elemental Li opt
+description: The optimised lattice parameter has been obtained by fitting a series of constant volume calculations to the Murnaghan equation of state.
+notes: Constant volume geometry optimisation.
+status: finished
+stoichiometry:
+    - Li: 2
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+functional: PBEsol
+encut: 500.0
+converged: True
+k-points:
+    scheme: Monkhorst
+    grid: 16 16 16
+energy: -3.9291181 eV
+vbm: 0.6584
+cbm: 0.6812
+directory: ./vasp_calculations/elemental_reference/Li_sv/opt/
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: f6806d86934af43657bda52e434efaf2

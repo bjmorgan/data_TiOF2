@@ -1,0 +1,6 @@
+Title                       
+0                            ! Automatic Generation scheme
+Monkhorst-Pack
+2 2 2                        ! Subdivisions N_1, N_2, and N_3 (K-mesh) 
+0.0 0.0 0.0                  ! optional shift of the mesh
+
