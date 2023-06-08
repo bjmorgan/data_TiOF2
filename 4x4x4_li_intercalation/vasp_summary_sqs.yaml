@@ -1,0 +1,1883 @@
+---
+title: TiOF2-Li config 0 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.07732649 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 563b7fee892a7a11eaada1cbc8d83673
+directory: ./0/
+
+---
+title: TiOF2-Li config 1 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.30938459 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 9e45b67feb6ac99f2e3c25297950af5e
+directory: ./1/
+
+---
+title: TiOF2-Li config 10 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.51944159 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 29832e5d650d4a14f10b013dccd5bfce
+directory: ./10/
+
+---
+title: TiOF2-Li config 11 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.72639485 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: f6fbe60936df27faaccb2e5de011881f
+directory: ./11/
+
+---
+title: TiOF2-Li config 12 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.22102397 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: dc8f94453c95db06f694010771f0cb58
+directory: ./12/
+
+---
+title: TiOF2-Li config 13 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.36841582 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 7c8952df6301c61b62e6b025c00fcecc
+directory: ./13/
+
+---
+title: TiOF2-Li config 14 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.57136186 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: ace25ef18569deb00180a07c6c968c3d
+directory: ./14/
+
+---
+title: TiOF2-Li config 15 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.89325533 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 917c429873c0d47c57487043695fc43e
+directory: ./15/
+
+---
+title: TiOF2-Li config 16 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.81516705 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: e9e7ecb0d21c155b43724f3f432c045c
+directory: ./16/
+
+---
+title: TiOF2-Li config 17 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.51876947 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: d37a0b7ba23b51f7833289b6e41ef316
+directory: ./17/
+
+---
+title: TiOF2-Li config 18 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.58961658 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 777a9867a986bc136d257dee0648a2df
+directory: ./18/
+
+---
+title: TiOF2-Li config 19 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.02003135 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: adcdaefbc0bb6f0b1253f97db0f0cb05
+directory: ./19/
+
+---
+title: TiOF2-Li config 2 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.47741851 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 62d85ad33935d80ffb4a24a95a700a59
+directory: ./2/
+
+---
+title: TiOF2-Li config 20 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.59321289 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 3cb8b1556eb7620f500f2221257d64f8
+directory: ./20/
+
+---
+title: TiOF2-Li config 21 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.29702045 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 16861ea8fb738f98364127d0e9b9bce6
+directory: ./21/
+
+---
+title: TiOF2-Li config 22 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.51010485 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 18a5b23454c037501a47c1b47f8f4512
+directory: ./22/
+
+---
+title: TiOF2-Li config 23 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.37863616 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 0eaad3dafe2296cb6b9537e49e5d1cd9
+directory: ./23/
+
+---
+title: TiOF2-Li config 24 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.96595921 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 100db68fd1cdaa9de1f6d7a5f4582f11
+directory: ./24/
+
+---
+title: TiOF2-Li config 25 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.26693337 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 4bb70e63152498fa802eea7c625d0895
+directory: ./25/
+
+---
+title: TiOF2-Li config 26 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.57793024 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: fa879f59e18421832ed1ba86978397d2
+directory: ./26/
+
+---
+title: TiOF2-Li config 27 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.89993924 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 77b24ad057271e924fb1492d8805b446
+directory: ./27/
+
+---
+title: TiOF2-Li config 28 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.02274767 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 2efcef9faaf313090ab476f5dfbd2eb6
+directory: ./28/
+
+---
+title: TiOF2-Li config 29 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.49158611 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 252c9b6e608e089c077a478b693ec3da
+directory: ./29/
+
+---
+title: TiOF2-Li config 3 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.18619411 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 713179f06aebe256648498685e2cc10c
+directory: ./3/
+
+---
+title: TiOF2-Li config 30 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.61104975 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: e7e6a92f0f4f90f45b42124d99fa3fbf
+directory: ./30/
+
+---
+title: TiOF2-Li config 31 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.96729415 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 4f6565991f2014c7e26d1a1bdb4242e4
+directory: ./31/
+
+---
+title: TiOF2-Li config 32 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.05187039 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 0bc547515daad8e5a3bb8d994581fd48
+directory: ./32/
+
+---
+title: TiOF2-Li config 33 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.71552392 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: d0f235bf116c672b65b14249047ac92d
+directory: ./33/
+
+---
+title: TiOF2-Li config 34 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.70577517 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 3aa534a6626ef72d96d8ab234ee1bbdf
+directory: ./34/
+
+---
+title: TiOF2-Li config 35 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.79445739 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 7472124946c9f19bf7e2d9f1c2ec2c2c
+directory: ./35/
+
+---
+title: TiOF2-Li config 36 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.58671708 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: bdc2548bc9c89430dc96401c058c3633
+directory: ./36/
+
+---
+title: TiOF2-Li config 37 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.30837692 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 9ee85a59def94fc1527f2070ef2f6734
+directory: ./37/
+
+---
+title: TiOF2-Li config 38 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.39900483 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 1c4c98f2eaa04ff1aa0b130a4dc90f42
+directory: ./38/
+
+---
+title: TiOF2-Li config 39 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.55221222 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: b5ebf4ce4292783ca0ef2475d0c15856
+directory: ./39/
+
+---
+title: TiOF2-Li config 4 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.46315364 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 9b7f96a4ff9aa3117037da7fb19b7ec1
+directory: ./4/
+
+---
+title: TiOF2-Li config 40 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.89402271 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: b6e5d52cc0a08be3f304dc782a692391
+directory: ./40/
+
+---
+title: TiOF2-Li config 41 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1746.9708256 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 21f212ba165d855619822b0a6f045909
+directory: ./41/
+
+---
+title: TiOF2-Li config 42 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.18862294 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 0039c80dadf5740d5fb3a196de091aca
+directory: ./42/
+
+---
+title: TiOF2-Li config 43 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.30407564 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: ad80626990a86cc988b9039411145041
+directory: ./43/
+
+---
+title: TiOF2-Li config 44 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.01935355 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 07b0f360a683edbd56897375a3b04c12
+directory: ./44/
+
+---
+title: TiOF2-Li config 45 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.54631006 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 430eb7b3b9052f32a57b1212dce1b2e0
+directory: ./45/
+
+---
+title: TiOF2-Li config 46 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.75082733 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 2
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 0da0e13c7178c35f4fc744b7ae701020
+directory: ./46/
+
+---
+title: TiOF2-Li config 47 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.73250687 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 8e8c142d136ac2c5571cf0c8582b7cb3
+directory: ./47/
+
+---
+title: TiOF2-Li config 48 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.7468846 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 5ef84acfda7b1dfb0b99931d4b140389
+directory: ./48/
+
+---
+title: TiOF2-Li config 49 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.30138259 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: a50a62fd4e669cdfcbe07107c4d67bce
+directory: ./49/
+
+---
+title: TiOF2-Li config 5 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.58137227 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: c90bc931d20529be0c7af6a155caff68
+directory: ./5/
+
+---
+title: TiOF2-Li config 50 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.17565236 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 512a15d58f5ade727a32829033c3c6e3
+directory: ./50/
+
+---
+title: TiOF2-Li config 51 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.74178721 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 32208849e41401a377f3844b0bb205c0
+directory: ./51/
+
+---
+title: TiOF2-Li config 52 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.66747065 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 1d43bb28c9a0b6acc2ee89677ea8d7a3
+directory: ./52/
+
+---
+title: TiOF2-Li config 53 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1746.86323589 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 99d071c7fd6d311c534bbfcb83235447
+directory: ./53/
+
+---
+title: TiOF2-Li config 54 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.12824357 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: cbcdd8f89917251b8781979280adaa58
+directory: ./54/
+
+---
+title: TiOF2-Li config 55 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.10300315 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 5e155913184cdb338854e537b1ee7d37
+directory: ./55/
+
+---
+title: TiOF2-Li config 56 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.07020766 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 653fa95f9a3332f15289fb47790c486c
+directory: ./56/
+
+---
+title: TiOF2-Li config 57 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1746.68847903 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: e1eed7ad609a8cde0abc168901a8a651
+directory: ./57/
+
+---
+title: TiOF2-Li config 58 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.02415197 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 9e8b071bcc953ccb4589e016abfb733c
+directory: ./58/
+
+---
+title: TiOF2-Li config 59 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.0894235 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: b4fab46bad2bb3a83f8a4706fc151877
+directory: ./59/
+
+---
+title: TiOF2-Li config 6 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.65953467 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 6da101aa61b482f9176a12b3ed6d2ec6
+directory: ./6/
+
+---
+title: TiOF2-Li config 60 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.58455365 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 2
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: cc518ccbd75da8b87b9342efcc492f57
+directory: ./60/
+
+---
+title: TiOF2-Li config 61 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.40535122 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: c90fe7bb2a7b495a07511a37b72f6881
+directory: ./61/
+
+---
+title: TiOF2-Li config 62 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.36654656 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: bfbbd44cfd3163c7bd6fe2ed8fef852f
+directory: ./62/
+
+---
+title: TiOF2-Li config 63 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.28934759 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 5bc8e2b5664a6df85ecd704c3f1d4161
+directory: ./63/
+
+---
+title: TiOF2-Li config 7 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.75507358 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 5cc970ca7b0154b6c02475021cda6a31
+directory: ./7/
+
+---
+title: TiOF2-Li config 8 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1748.09206235 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: bb9bfc58615fcd64b9a55d6cccc025f2
+directory: ./8/
+
+---
+title: TiOF2-Li config 9 (sqs)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1747.14258846 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 9a2748cd0b261931d4ea0c68b2770706
+directory: ./9/
+
+---
+title: TiOF2 (sqs) stoichiometric
+status: finished
+stoichiometry:
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1742.59327942 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 650.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: be198557bb7257b8535095823fc0e6d8
+directory: ./SQS/
+
