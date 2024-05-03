@@ -14,6 +14,7 @@ The dataset contains inputs and outputs for the following calculations:
 5. Structure prediction of partially disordered 4&times;4&times;4 TiOF<sub>2</sub> supercells, using the cluster expansion model from 3. and a genetic algorithm. ([cluster_ga_4x4x4](cluster_ga_4x4x4))
 6. DFT Geometry optimisation of 5 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells (generated in step 5). ([4x4x4_vasp_calculations](4x4x4_vasp_calculations))
 7. DFT calculations of Li inserted into interstitial sites of one of the 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells. ([li_insertion](li_insertion))  
+
 Full details for each set of calculations are given in each corresponding subdirectory.
 
 ## 1. Generation of all symmetry-inequivalent 2&times;2&times;2 disordered supercells
