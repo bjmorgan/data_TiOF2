@@ -1,0 +1,3 @@
+pymatgen
+numpy
+-e git://github.com/bjmorgan/beagle.git#egg=beagle
