@@ -1,6 +1,6 @@
 # Figure plotting scripts and data
 
-This directory contains plotting scripts and data for figures in the manuscript ``Correlated Anion-Disorder in Heteroanionic Cubic TiOF<sub>2</sub>''
+This directory contains plotting scripts and data for figures in the manuscript &ldquo;Correlated Anion-Disorder in Heteroanionic Cubic TiOF<sub>2</sub>&rdquo;
 
 - Fig. 2: PDF refinement of cubic TiO<sub>2</sub> ([code](Plotting%20Notebooks/TiOF2%20PDF%20fitting.ipynb))
 - Fig. 3: Experimental and fitted <sup>19</sup>F MAS NMR spectra of ReO<sub>3</sub>-type TiO<sub>2</sub> ([code](Plotting%20Notebooks/19F%20NMR%20spectrum%20and%20fitting.ipynb))
