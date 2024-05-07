@@ -1,0 +1,52 @@
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 08/04/2021 16:31:04
+
+# TiF4-163-vasp_19-relc_1719376.POSCAR -- non-magnetic
+
+data_Oq203Ggm
+_audit_creation_date               2021-04-08
+_audit_creation_method             "Bilbao Crystallographic Server"
+_symmetry_Int_Tables_number        62
+#_symmetry_space_group_name_H-M    "Pnma1'"
+_cell_length_a                     22.8110
+_cell_length_b                     3.8480
+_cell_length_c                     9.5680
+_cell_angle_alpha                  90.0000
+_cell_angle_beta                   90.0000
+_cell_angle_gamma                  90.0000
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+   1   x,y,z
+   2   x+1/2,-y+1/2,-z+1/2
+   3   -x,y+1/2,-z
+   4   -x+1/2,-y,z+1/2
+   5   -x,-y,-z
+   6   -x+1/2,y+1/2,z+1/2
+   7   x,-y+1/2,z
+   8   x+1/2,y,-z+1/2
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+F1 F 0.77347 0.25000 0.30335 1.0000
+F2 F 0.42000 0.25000 0.33622 1.0000
+F3 F 0.52625 0.25000 0.11559 1.0000
+F4 F 0.09089 0.25000 0.03209 1.0000
+F5 F 0.16053 0.25000 0.81213 1.0000
+F6 F 0.39890 0.25000 -0.03419 1.0000
+F7 F 0.27313 0.25000 0.85796 1.0000
+F8 F 0.63673 0.25000 0.21139 1.0000
+F9 F 0.17625 0.25000 0.54594 1.0000
+F10 F 0.29297 0.25000 0.57934 1.0000
+F11 F -0.00202 0.25000 0.86268 1.0000
+F12 F 0.57068 0.25000 0.85618 1.0000
+Ti1 Ti 0.23460 0.25000 0.69876 1.0000
+Ti2 Ti 0.59860 0.25000 0.05240 1.0000
+Ti3 Ti 0.07503 0.25000 0.85375 1.0000
