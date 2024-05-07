@@ -3,7 +3,7 @@
 Author: Benjamin J. Morgan  
 ORCID: [0000-0002-3056-8233](https://orcid.org/0000-0002-3056-8233)
  
-This is the Supporting Dataset for the maniscript &ldquo:Correlated Anion-Disorder in Heteroanionic Cubic TiOF<sub>2</sub>&rdquo;
+This is the Supporting Dataset for the maniscript &ldquo;Correlated Anion-Disorder in Heteroanionic Cubic TiOF<sub>2</sub>&rdquo;
 
 The dataset comprises three sections:
 
