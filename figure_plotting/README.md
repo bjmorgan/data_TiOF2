@@ -12,7 +12,7 @@ This directory contains plotting scripts and data for figures in the manuscript 
 - Fig. 11: Lithium intercalation energies as a function of the degree of short-range order in cubic TiOF<sub>2</sub> ([code](Plotting%20Notebooks/TiOF2_Li_intercalation.ipynb))
 
 - Fig. S1: Rietveld analysis of the X-ray diffraction pattern of TiOF<sub>2</sub> using the ReO<sub>3</sub>-type structure ([code](Plotting%20Notebooks/TiOF2%20XRD%20Rietveld.ipynb))
-- Fig. S2: PDF refinement using the cubic ReO<sub>3<sub>-type model from 7 &#8491; to 40 &#8491;. ([code](Plotting%20Notebooks/TiOF2%20PDF%20fitting.ipynb))
+- Fig. S2: PDF refinement using the cubic ReO<sub>3</sub>-type model from 7 &#8491; to 40 &#8491;. ([code](Plotting%20Notebooks/TiOF2%20PDF%20fitting.ipynb))
 - Fig. S4: Distribution of TiO<sub>6−<i>x</i></sub>F<sub><i>x</i></sub> coordination octahedra in ReO<sub>3</sub>-type TiOF<sub>2</sub> for different structural models (comparison with 4&times;4&times;4 GA-predicted supercells). ([code](Plotting%20Notebooks/4x4x4_GA_analysis.ipynb))
 - Fig. S5: Distribution of TiO<sub>6−<i>x</i></sub>F<sub><i>x</i></sub> coordination octahedra in ReO<sub>3</sub>-type TiOF<sub>2</sub> for different structural models (comparison with 6&times;6&times;6 GA-predicted supercells). ([code](Plotting%20Notebooks/6x6x6_GA_analysis.ipynb))
 - Fig. S6: Distribution of anion orderings along ⟨001⟩ columns in ReO<sub>3</sub>-type TiOF<sub>2</sub> for three 6&times;6&times;6 supercell models ([code](Plotting%20Notebooks/6x6x6_GA_analysis.ipynb))
