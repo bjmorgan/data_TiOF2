@@ -1,4 +1,4 @@
-# TiOF<sub>2</sub> structure prediction dataset
+# Supporting Data for &ldquo;Correlated Anion-Disorder in Heteroanionic Cubic TiOF<sub>2</sub>&rdquo;
 
 Author: Benjamin J. Morgan  
 ORCID: [0000-0002-3056-8233](https://orcid.org/0000-0002-3056-8233)
