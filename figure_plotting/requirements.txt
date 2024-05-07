@@ -1,0 +1,13 @@
+matplotlib
+numpy
+scipy
+pymatgen
+pandas
+sklearn
+jupyter
+tqdm
+bsym
+polyhedral_analysis
+vasppy
+git+https://github.com/bjmorgan/figure_formatting.git
+

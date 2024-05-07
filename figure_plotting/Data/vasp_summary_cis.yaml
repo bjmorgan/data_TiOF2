@@ -1,0 +1,114 @@
+---
+title: TiOF2-Li config 0 (cis)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1757.97941692 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 5820a1f8fb6c050b71dd46ead9c17ffc
+directory: ./0/
+
+---
+title: TiOF2-Li config 1 (cis)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1758.14423478 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 2bcf7cdd3a1b8e545a94cd056a4b8834
+directory: ./1/
+
+---
+title: TiOF2-Li config 2 (cis)
+status: finished
+stoichiometry:
+    - Li: 1
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Li: PAW_PBE Li_sv 10Sep2004
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1758.17486184 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 500.0
+ediffg: -0.05
+ibrion: 2
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 7cb5c5407d5bcd50a191b04eba3c20c5
+directory: ./2/
+
+---
+title: TiOF2 cis
+status: finished
+stoichiometry:
+    - Ti: 64
+    - O: 64
+    - F: 128
+potcar:
+    - Ti: PAW_PBE Ti_pv 07Sep2000
+    - O: PAW_PBE O 08Apr2002
+    - F: PAW_PBE F 08Apr2002
+ldau:
+    - Ti: d 4.2 0
+energy: -1754.60471229 eV
+lreal: True
+k-points:
+    scheme: Monkhorst
+    grid: 2 2 2
+functional: PBEsol+U
+encut: 650.0
+ediffg: -0.05
+ibrion: 1
+converged: True
+version: vasp.5.4.4.18Apr17-6-g9f103f2a35
+vasprun md5: 246338575c59abca2fab096d43338377
+directory: ./CIS/
+
