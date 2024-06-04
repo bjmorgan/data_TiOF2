@@ -12,9 +12,10 @@ The dataset contains inputs and outputs for the following calculations:
 3. Fitting a cluster expansion model to the energies of these 65 configurations. ([cluster_expansion](cluster_expansion))
 4. Predicting the energies of all 2664 2&times;2&times;2 supercell configurations, using the cluster expansion model. ([cluster_predictions](cluster_predictions))
 5. Structure prediction of partially disordered 4&times;4&times;4 TiOF<sub>2</sub> supercells, using the cluster expansion model from 3. and a genetic algorithm. ([cluster_ga_4x4x4](cluster_ga_4x4x4))
-6. DFT Geometry optimisation of 5 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells (generated in step 5). ([4x4x4_vasp_calculations](4x4x4_vasp_calculations))
+6. DFT geometry optimisation of 5 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells (generated in step 5). ([4x4x4_vasp_calculations](4x4x4_vasp_calculations))
 7. DFT calculations of Li inserted into interstitial sites of one of the 4&times;4&times;4 partially disordered TiOF<sub>2</sub> supercells. ([li_insertion](li_insertion))  
 8. Structure prediction of a partially disordered 6&times;6&times;6 TiOF<sub>2</sub> supercell, using the cluster expansion model from 3. and a genetic algorithm. ([cluster_ga_6x6x6](cluster_ga_6x6x6))
+9. DFT geometry optimisation of 10 3&times;3&times;3 &ldquo;OFFO&rdquo;-ordered supercells (inverted Brink NbO<sub>2</sub>F structure model)
 
 Full details for each set of calculations are given in each corresponding subdirectory.
 
