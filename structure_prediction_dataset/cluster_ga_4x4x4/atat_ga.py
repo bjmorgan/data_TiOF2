@@ -76,7 +76,7 @@ def structure_to_str_out( structure, filename, supercell ):
             f.write( "{} {}\n".format( np_string( site.frac_coords * supercell ), site.species_string ) )
 
 if __name__ == '__main__':
-    niter = 1
+    niter = 500
     expansion = np.array( [ 4, 4, 4 ] )
     ref_eng = ref_energy()
     n_atoms = 3
